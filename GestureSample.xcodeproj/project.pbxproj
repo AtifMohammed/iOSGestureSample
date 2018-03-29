@@ -14,6 +14,9 @@
 		C0C021CA206CBB09003C49E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C021C8206CBB09003C49E4 /* LaunchScreen.storyboard */; };
 		C0C021D5206CBB09003C49E4 /* GestureSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C021D4206CBB09003C49E4 /* GestureSampleTests.swift */; };
 		C0C021E0206CBB09003C49E4 /* GestureSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C021DF206CBB09003C49E4 /* GestureSampleUITests.swift */; };
+		C0C021EE206CC0AF003C49E4 /* GestureCallbackProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C021ED206CC0AF003C49E4 /* GestureCallbackProtocol.swift */; };
+		C0C021F1206CD53A003C49E4 /* GestureRecogniserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C021F0206CD53A003C49E4 /* GestureRecogniserDelegate.swift */; };
+		C0C021F3206CD636003C49E4 /* GestureRecogniser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C021F2206CD636003C49E4 /* GestureRecogniser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		C0C021DB206CBB09003C49E4 /* GestureSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C021DF206CBB09003C49E4 /* GestureSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureSampleUITests.swift; sourceTree = "<group>"; };
 		C0C021E1206CBB09003C49E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0C021ED206CC0AF003C49E4 /* GestureCallbackProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureCallbackProtocol.swift; sourceTree = "<group>"; };
+		C0C021F0206CD53A003C49E4 /* GestureRecogniserDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRecogniserDelegate.swift; sourceTree = "<group>"; };
+		C0C021F2206CD636003C49E4 /* GestureRecogniser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRecogniser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 		C0C021BE206CBB09003C49E4 /* GestureSample */ = {
 			isa = PBXGroup;
 			children = (
+				C0C021EF206CD4FD003C49E4 /* GestureRecogniser */,
 				C0C021BF206CBB09003C49E4 /* AppDelegate.swift */,
 				C0C021C1206CBB09003C49E4 /* ViewController.swift */,
 				C0C021C3206CBB09003C49E4 /* Main.storyboard */,
@@ -123,6 +130,16 @@
 				C0C021E1206CBB09003C49E4 /* Info.plist */,
 			);
 			path = GestureSampleUITests;
+			sourceTree = "<group>";
+		};
+		C0C021EF206CD4FD003C49E4 /* GestureRecogniser */ = {
+			isa = PBXGroup;
+			children = (
+				C0C021ED206CC0AF003C49E4 /* GestureCallbackProtocol.swift */,
+				C0C021F0206CD53A003C49E4 /* GestureRecogniserDelegate.swift */,
+				C0C021F2206CD636003C49E4 /* GestureRecogniser.swift */,
+			);
+			path = GestureRecogniser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0C021F3206CD636003C49E4 /* GestureRecogniser.swift in Sources */,
+				C0C021EE206CC0AF003C49E4 /* GestureCallbackProtocol.swift in Sources */,
+				C0C021F1206CD53A003C49E4 /* GestureRecogniserDelegate.swift in Sources */,
 				C0C021C2206CBB09003C49E4 /* ViewController.swift in Sources */,
 				C0C021C0206CBB09003C49E4 /* AppDelegate.swift in Sources */,
 			);
